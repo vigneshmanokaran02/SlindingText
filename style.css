@@ -1,0 +1,322 @@
+*{
+
+margin: 0%;
+padding: 0%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.container{
+
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-image: url(image/background.png);
+        background-size: cover;
+        position: relative;
+        padding-top: 30px;
+        box-sizing: border-box;
+
+
+
+
+
+}
+.navbar{
+
+        width: 100%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background: rgba(29, 33, 69, 0.14);
+        padding: 0 60px;
+        box-sizing: border-box;
+        
+
+
+
+
+
+}
+.logo{
+
+
+        width: 155px;
+
+
+
+
+}
+.logo img{
+
+ width: 30px;
+position: relative;
+z-index: 10;
+ cursor: pointer;
+
+
+}
+nav{
+
+    flex: 1;
+}
+
+nav ul li{
+
+
+list-style: none;
+display: inline-block;
+margin-right: 60px;
+
+
+
+}
+
+
+
+
+
+
+nav ul li a{
+
+text-decoration: none;
+font-size: 14px;
+color: #fff;
+
+}
+.user{
+        
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+
+}
+.user img{
+
+        width: 30px;
+        margin-left: 15px;
+        cursor: pointer;
+
+}
+
+
+.sidenav{
+
+        width: 150px;
+        height: 100vh;
+        background: rgba(29, 33, 69, 0.14);
+        position: absolute;
+        top: 0;
+        left: 0;
+
+
+}
+
+
+.search-icon{
+
+        width: 20px;
+        display: block;
+        margin: 120px auto 0;
+
+
+}
+
+.sociallink{
+
+        width: 20px;
+        display: block;
+        margin: 220px auto 0;
+        text-align: center;
+
+
+
+
+
+}
+.sociallink img{
+
+        height: 15px;
+        margin-bottom: 30px;
+
+}
+.info-icon{
+
+        width: 20px;
+        position: absolute;
+        left: 50%;
+        bottom: 30px;
+        transform: translateX(-50%);
+
+}
+.msg{
+        width: 550px;
+        height: 280px;
+        position: absolute;
+        left: 15%;
+        top: 57%;
+        transform: translateY(-50%);
+        overflow: hidden;
+        scroll-margin: none;
+                
+
+
+
+
+}
+
+#slider{
+
+        display: inline-flex;
+        transition: 0.5s;
+
+
+}
+
+
+.msg-cal{
+
+        width: 600px;
+        height: 280px;
+}
+.msg-cal h1{
+
+        font-size: 50px;
+        font-weight: 70;
+        color: #fff;
+        margin: 10p 0;
+
+
+
+}
+
+.msg-cal p{
+
+        font-size: 15px;
+        color: #ddd;
+        line-height: 25px;
+}
+
+.msg-cal a{
+
+        display: inline-block;
+        text-decoration: none;
+        color: rgba(34, 5, 199, 0.822);
+        font-size: 15px;
+        background: rgb(209, 174, 223);
+        padding: 10px 35px;
+        padding-top: 10px;
+        border-radius: 30px;
+        margin-top: 25px;
+
+
+
+
+
+}
+.controller{
+
+        width: 2px;
+        height: 320px;
+        display: block;
+        background: #c0c0c0;
+        position: absolute;
+        top: 55%;
+        right: 50px;
+        transform: translateY(-50%);
+
+}
+
+
+#line1,#line2,#line3,#line4{
+
+        height: 80px;
+        width: 10px;
+        cursor: pointer;
+        transform: translateX(-50%);
+}
+
+
+#active{
+
+     width: 5px;
+     height: 80px;
+     border-radius: 10px;
+     background: #fff;
+     position: absolute;
+     top: 0;
+     transform: translateX(-50%);
+     transition: 0.5s;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

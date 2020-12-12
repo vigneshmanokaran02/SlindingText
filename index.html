@@ -1,0 +1,245 @@
+<!doctype html >
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale = 1.0" >
+
+            <title>user</title>
+            
+            <link rel="stylesheet" href="style.css">
+
+
+
+
+
+    </head>
+
+    <body>
+        
+
+                <div class="container">
+                    <div class="navbar">
+                         <div class="logo">
+                            <img src="image/logo.png" alt="" >
+                        </div>
+                            <nav>
+
+                                <ul>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Library</a></li>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Contact</a></li>
+                                               
+
+
+                                </ul>
+                            </nav>
+                            <div class="user">
+                                <p>Hello World</p>
+                                <img src="image/user.png" alt="loading">
+                            </div>
+                    </div>
+                    <div class="sidenav">
+
+
+                        <img src="image/search.png" class="search-icon">
+                        <div class="sociallink">
+                            <img src="image/fb.png" alt="">
+                            <img src="image/tw.png" alt="">
+                            <img src="image/pt.png" alt="">
+                        </div>
+                        <img src="image/info.png" class="info-icon">
+
+
+                    </div>
+                    <div class="msg">
+
+                        <div id="slider">
+
+                            <div class="msg-cal">
+
+                                <h1>The Reasoning</h1>
+                                <p>None can destroy iron, but its own rust can <br> none can destroy a person but his own mindset can</p>
+                                <a href="">Learn More</a>
+                             </div>
+                             <div class="msg-cal">
+
+                                <h1>The Knowledge</h1>
+                                <p>Learning gives creativity <br>
+                                    Creativity leads to thinking <br>
+                                    Thinking provides knowledge <br>
+                                    Knowledge makes you great</p>
+                                <a href="">Learn More</a>
+                            </div>
+
+                               <div class="msg-cal">
+
+                                
+                                <h1>The Integration</h1>
+                                <p>Your business and your life are happening at the same time <br> Don't separate themI ntegrate them</p>
+                                <a href="">Learn More</a>
+                            </div>
+
+                              <div class="msg-cal">
+                                <h1>The Learning</h1>
+                                <p>Learn everything you can, anytime you can, from anyone you can <br> there will always come a time when you will be grateful you did</p>
+                                <a href="">Learn More</a>
+                            </div>
+
+                           
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+                    <div class="controller">
+
+                        <div id="line1"></div>
+                        <div id="line2"></div>
+                        <div id="line3"></div>
+                        <div id="line4"></div>
+                        <div id="active"></div>
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                </div>
+
+
+
+
+                <script>
+
+
+
+                    var slider = document.getElementById('slider');
+                    var active = document.getElementById('active');
+                    var line1 = document.getElementById('line1');
+                    var line2 = document.getElementById('line2');
+                    var line3 = document.getElementById('line3');
+                    var line4 = document.getElementById('line4');
+
+
+
+                    line1.onclick = function(){
+                        slider.style.transform = 'translateX(0)';
+                        active.style.top = '0px'
+                    }
+
+
+                    line2.onclick = function(){
+                        slider.style.transform = 'translateX(-25%)';
+                        active.style.top = '80px'
+                    }
+
+
+                    line3.onclick = function(){
+                        slider.style.transform = 'translateX(-50%)';
+                        active.style.top = '160px'
+                    }
+
+
+                    line4.onclick = function(){
+                        slider.style.transform = 'translateX(-75%)';
+                        active.style.top = '240px'
+                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </script>
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
